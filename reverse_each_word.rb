@@ -1,9 +1,9 @@
 def reverse_each_word(sentence)
-  sentence.split.each {|word| word.reverse}
-  sentence.each do |reverse|
-    phrase << "Hello there, and how are you?" 
+  phrase = []
+  sentence.split.each 
+    phrase << {|word| word.reverse}.join(',')
   end
-    words  
+    phrase 
   end
     
     
