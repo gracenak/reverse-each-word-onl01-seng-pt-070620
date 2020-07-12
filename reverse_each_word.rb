@@ -1,10 +1,10 @@
 require 'pry'
 def reverse_each_word(array)
-  array = []
+  first_array = []
   new_array = sentence.split('')
-  array << new_array.each {|char|char.reverse!}
+  first_array << new_array.each {|char|char.reverse!}
 end
-  return array.join ("")
+  return first_array.join (" ")
   binding.pry
 end
     
